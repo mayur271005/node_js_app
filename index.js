@@ -5,7 +5,7 @@ const PORT =process.env.port?? 8000;
 
 
 app.get("/", (req, res) => {
-    res.json({ message: "Hello World" });
+    res.json({ message: "Hello World from mayur" });
 });
 
 app.listen(PORT, () => {
